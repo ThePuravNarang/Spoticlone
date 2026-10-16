@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Music — Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Spotify home"><span class="brand-mark">●</span> Spotify</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a class="active" href="browse.html">Browse</a><a href="index.html#premium">Premium</a><a href="index.html#support">Support</a><a href="index.html#download">Download</a>
+    </nav>
+    <a class="nav-cta" href="signup.html">Sign up free</a>
+  </header>
+
+  <main class="page-main">
+    <section class="page-intro">
+      <p class="eyebrow">A WORLD OF SOUND</p>
+      <h1 id="page-title">Browse <span>all.</span></h1>
+      <p>Whatever you're feeling, there's a sound for it. Pick a lane and press play.</p>
+      <form class="search-form" action="browse.html" method="get">
+        <label class="sr-only" for="music-search">Search music genres</label>
+        <input id="music-search" type="search" name="q" placeholder="Search moods, genres, sounds..." aria-label="Search moods and genres">
+        <button type="submit" class="button button-green">Search</button>
+      </form>
+    </section>
+
+    <section class="section-wrap browse-section">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR FREQUENCY</p><h2>Explore by genre</h2></div><span class="muted-label">04 COLLECTIONS</span></div>
+      <div class="genre-grid">
+        <a class="genre-card genre-pop" href="playlist.html"><span class="genre-number">01</span><span class="genre-symbol">✳</span><div><h2>Pop</h2><p>Hooks that stay with you.</p></div><span class="genre-arrow">↗</span></a>
+        <a class="genre-card genre-hiphop" href="playlist.html"><span class="genre-number">02</span><span class="genre-symbol">〽</span><div><h2>Hip-Hop</h2><p>Beats with something to say.</p></div><span class="genre-arrow">↗</span></a>
+        <a class="genre-card genre-chill" href="playlist.html"><span class="genre-number">03</span><span class="genre-symbol">☾</span><div><h2>Chill</h2><p>Take a breath. Stay awhile.</p></div><span class="genre-arrow">↗</span></a>
+        <a class="genre-card genre-workout" href="playlist.html"><span class="genre-number">04</span><span class="genre-symbol">↗</span><div><h2>Workout</h2><p>Find your next gear.</p></div><span class="genre-arrow">↗</span></a>
+      </div>
+    </section>
+    <section class="quote-strip"><span class="quote-mark">“</span><p>Some songs feel like places you’ve been. Others take you somewhere new.</p><span class="quote-credit">THE SOUNDTRACK IS YOURS</span></section>
+  </main>
+
+  <footer class="site-footer" id="support">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">●</span> Spotify</a>
+    <div class="footer-links"><a href="index.html">Home</a><a href="index.html#premium">Premium</a><a href="#support">Support</a><a href="index.html#download">Download</a></div>
+    <p>Made with music in mind. This is a student-made static website concept.</p>
+    <span class="footer-note">© 2026 • MUSIC IS BETTER TOGETHER</span>
+  </footer>
+</body>
+</html>
